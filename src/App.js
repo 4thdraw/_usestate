@@ -1,10 +1,12 @@
 import Rcom from "./Return"
+import listdb from './data/list'
 
-function App() {
+
+function App() { 
 
   return (
    <>     
-      <Rcom title="공지사항"></Rcom>  
+      <Rcom title="공지사항" dbnm={listdb}></Rcom>  
    </>
   );
 }
