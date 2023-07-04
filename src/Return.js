@@ -1,10 +1,13 @@
+import List from './child/List'
+
 function Return(props) {
     return (
-        
-      <span className={props.context.cls}>
-        {props.context.text}
-      </span> 
-       
+     <section id="notice">
+        <h2></h2>
+        <ul>
+          <List num={5}></List>
+        </ul>
+     </section>     
     )
 }
 
