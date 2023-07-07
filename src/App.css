@@ -1,6 +1,23 @@
-.red{
-  background-color: red;  
+*{
+  margin: 0;
+  padding: 0;
 }
-.green{ background-color: green;}
-.blue{ background-color: blue;}
-button{ font-size: 100px;}
+body{
+
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  color:#666;
+}
+ul, li, dl, dt, dd{
+  list-style: none;
+}
+button{ background-color: transparent; border:0}
+
+#app ul{
+  padding-left: 0;
+}
+
+.tabbox .on button{
+  background-color: black;
+  color:white
+}
